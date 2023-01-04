@@ -39,7 +39,7 @@ ORDER BY CUSTOMER_ID;
 --Customer B spent 6 days in restaurant
 --Customer C spent 2 days in restaurant
 
-
+--***************************************************************************************************************************
 --Question 3:
 --What was the first item purchased by each customer?
 
@@ -73,7 +73,7 @@ order by customer_id
 --Customer C ordered ramen
 
 
-
+--***************************************************************************************************************************
 --Question 4:
 -- What is the most purchased item on menu and how many times was it purchased by all customers?
 
@@ -91,7 +91,7 @@ LIMIT 1;
 --The most purchased item - Ramen. It was purchased 8 times
 
 
-
+--***************************************************************************************************************************
 --Question 5:
 -- Which item was the most popular for each customer?
 
@@ -118,7 +118,7 @@ WHERE PRODUCT_RANK = 1;
 -- Customers A and C preferred ramen 
 -- Customer B liked ramen, sushi, and curry equally
 
-
+--***************************************************************************************************************************
 --Question 6:
 --Which item was purchased first by the customer after they became a member?
 
@@ -163,7 +163,7 @@ WHERE ORDER_RANK = 1;
 --Customer B order sushi. 
 	
 	
-	
+--***************************************************************************************************************************	
 --Question 7:
 --Which item was purchased just before the customer became a member?
 
@@ -207,7 +207,7 @@ WHERE ORDER_RANK = 1;
 --Customer A purchased curry and sushi
 --Customer B purchased sushi
 
-
+--***************************************************************************************************************************
 --Question 8:
 --What is the total items and amount spent for each member before they became a member?
 
@@ -229,7 +229,7 @@ ORDER BY CUSTOMER_ID
 --Customer A -- 2 orders - Total amount 25.00
 --Customer B -- 3 orders - Total amount 40.00
 
-
+--***************************************************************************************************************************
 --Question 9:
 --If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
@@ -268,7 +268,7 @@ group by customer_id;
 --Customer C has 360 points
 
 
-
+--***************************************************************************************************************************
 -- Question 10:
 -- In the first week after a customer joins the program (including their join date)
 -- they earn 2x points on all items, not just sushi
